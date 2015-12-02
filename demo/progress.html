@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://vndile.com/wd/?q=jquery"></script>
+	<script type="text/javascript" src="http://vndile.com/wd/?q=js"></script>
+	<link type="text/css" rel="stylesheet" href="http://vndile.com/wd/?q=css">
+	<script>
+$(document).ready(function() { 
+	time = setInterval(function(){
+		$(function(){
+			var g = $('#progress-time'); 
+			var a = g.html(); // lấy thời gian
+			var q = a*2/2 +1; // lấy thời gian + 1
+			var w = $('#progress-time-bar'); 
+			g.html(q); // đặt lại thời gian với thời gian mới (thời gian cũ +1)
+			w.css('width',q+'%'); // cho thanh tải một độ dài mới + %
+			w.html(a+'%'); // thêm chữ mới cho thanh tải 
+		});
+	}, 200);
+	setTimeout(function(){
+		clearInterval(time);
+		$(function(){ 
+			$('.progress').remove();
+			$('body').append('<div class="large padd-40">Tải thành công ! 100% - <a href="">Xem lại</a></div>');
+		});
+	}, 20000);
+});
+	</script>
+</head>
+<body>
+	<span id="progress-time" style="display:none;">0</span>
+	<div class="progress">
+		<div class="light-blue progress-bar progress-striped progress-bar large animation center" id="progress-time-bar" style="width:0;"></div>
+	</div>
+</body>
+</html>

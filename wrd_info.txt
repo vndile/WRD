@@ -1,0 +1,32 @@
+﻿----------------------------------------------------------------
+WEB RESPONSIVE DISPLAY [v0.7.0]
+	
+----------------------------------------------------------------
+| PHIÊN BẢN 0.7.0 TRONG WRD CÓ GÌ ?
+
+1. Sửa lỗi undefined khi không có value trong input radio của form
+2. Sửa lỗi range và color bị "dính" css của input (text)
+3. Sửa lỗi tooltip
+4. Sửa lỗi hiệu ứng border của gallery mờ
+5. Sửa lỗi card
+6. Thêm collapse:
+	- Thuộc tính wrd-collapse-speed: thời gian mở
+7. Thêm panel
+8. Thêm 2 thuộc tính wrd-*: width và height
+9. Sửa scrollPage
+	- Cho phép bạn tùy chỉnh tốc độ
+	- Tạo menu fixed được hỗ trợ bởi scrollPage
+	- Chia ra các phần tương ứng với menu. 
+	- Nhấn vào menu để di chuyển tới các phần.
+	- Tạo scrollPage đơn giản hơn !
+10. Thêm pricing-table 
+
+	
+----------------------------------------------------------------
+| CÁC SOURCE CÓ TRONG WRD (CSS+JS)
+* normalize.css
+* HTML5 Shiv v3.7.0
+
+----------------------------------------------------------------
+© Bản quyền thuộc về WRD. Tất cả các quyền. Một sản phẩm của VN Dile.
+http://wrd.vndile.com/ hoặc http://vndile.com/wrd/

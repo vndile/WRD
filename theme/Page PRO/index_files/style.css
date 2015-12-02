@@ -1,0 +1,19 @@
+﻿.scrollPage-menu ul h2 {
+	display: none;
+}
+@media screen and (max-width: 1000px) {
+	.scrollPage-menu ul h2 {
+		display: block !important;
+	}
+	.scrollPage-content>div {
+		padding: 20px !important;
+	}
+}
+#news a {
+	color: white !important;
+}
+.btn-group .btn,
+#library .btn {
+	background-color: #fff !important;
+	color: #333 !important;
+}

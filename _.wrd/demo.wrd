@@ -1,0 +1,23 @@
+﻿<@wrd
+	|
+	version = 0.3.0,
+	sstm	  = {
+		ssl: 'key.ssl',
+		orign: [false,true],
+		allow: ['/']
+	},
+	link	  = http://wrd.vndile.com/
+	| 
+	document.func () {
+		# Create by WRD 
+		#!
+			-------------------------------------------------------------
+		#
+		new "menu" in "body" type "append" place "last" sstm = {
+			new "submenu" text "Submenu 1";
+			new "submenu" text "Submenu 2";
+			new "submenu" text "Submenu 3";
+		};
+		new %elem:div% in "body" type "inner" html "Hello World !";
+	}
+@>

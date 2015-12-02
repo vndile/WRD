@@ -1,0 +1,170 @@
+﻿<!Doctype html>
+<html lang="vi">
+	<head>
+		<title>Blog của tôi | WRD v0.6.0</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="http://vndile.com/wd/?q=jquery"></script>
+		<script type="text/javascript" src="http://vndile.com/wd/?q=js"></script>
+		<link type="text/css" rel="stylesheet" href="http://vndile.com/wd/?q=css">
+	<style>
+.area p img {width:100%;}
+#ctn img {
+    border:2px transparent solid;
+    opacity:0.95;
+}
+#ctn img:hover {
+    border:2px #fff solid;
+    opacity:1;
+}
+.menu a {
+	color:#333 !important;
+}
+@media only screen and (max-width: 640px) { 
+    .header {
+        padding:20px !important;
+    }
+    .mobile-img, .header .menu>ul {
+        margin-top:30px;
+        position:static !important;
+    }
+    #hd {
+        padding:50px 10% !important;
+    }
+    #ctn img {
+        width:100% !important;
+        border-radius:10px !important;
+    }
+    #page #p1 {
+        margin-top:50px !important;
+    }
+    #page #p1, #page #p2 {
+        display:block;
+        float:none !important;
+        margin:10px 10% !important;
+        width:80% !important;
+    }
+}	
+	</style>
+	</head>
+	<body>
+		<header class="header padd-30 padd-left-50 gird" wrd-color="#848484" wrd-bgcolor="#ECECEC">
+			<div class="gird-row">
+				<div class="col-5 xx-large">Blog của tôi</div>
+				<div class="col-6 right large">
+					<div class="menu transparent">
+						<ul>
+							<li><a href="#">Trang chủ</a></li>
+							<li><a href="#">Tin tức</a></li>
+							<li><a href="#">Nhóm tôi</a></li>
+							<li><a href="#">Về tôi</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</header>
+		<div class="teal padd-100" wrd-marg-top="-20px" id="hd">
+			<div class="xx-large">WJ. Garnew</div><br>
+			<div class="content large w-500" id="ctn">
+				Tôi là Garnew - một nhà lập trình web. Tôi đã có đam mê làm web từ nhỏ và hiện tại, tôi đang sở hữu một công ty làm web lớn tên là Garnew Inc.<br><br>
+				<img src="http://pulpypics.com/wp-content/uploads/2014/08/images-animals-animal-wonderful-array-wallwuzz-hd-wallpaper-3021.jpg" class="img-circle" width="400" style="border-radius: 400px;width: 200px;height: 200px;">
+			</div>
+		</div>
+		<div class="medium" id="page">
+			<div class="flt-left" style="width:45%;margin-left:5%;" id="p1">
+				<div class="area padd-30">
+					<h2><a href="#" class="tooltip" wrd-tooltip="Hưỡng dẫn tạo pagination page bằng WRD" wrd-tooltip-name="tin1">Hưỡng dẫn tạo pagination page bằng WRD</a></h2>
+					<p>
+						<img src="./index_files/1.png" /><br>
+						Đầu tiên, bạn phải tạo một trang web. Sau đó, bạn hãy chia ra hai phần: nội dung và lựa chọn. Bạn tạo một khung lựa chọn sử dụng class pagination có đanh số từ 1 trở lên (VD: 1 -> 100). Tiếp theo thêm sự kiện nhấn cho pagination...
+					</p>
+				</div>
+				<div class="area padd-30">
+					<h2><a href="#" class="tooltip" wrd-tooltip="Cách tạo web Responsive chuẩn SEO" wrd-tooltip-name="tin2">Cách tạo web Responsive chuẩn SEO</a></h2>
+					<p>
+						<img src="./index_files/2.png" /><br>
+						Bạn thắc mắc tại sao trang web bạn lại không responsive ? Tại sao trang bạn bị tụt hạng trên mobile ? Bí quyết của WRD: sử dụng hợp lý thư viện WRD để có được hiệu quả cho trang bạn...
+					</p>
+				</div>
+				<div class="area padd-30">
+					<h2><a href="#" class="tooltip" wrd-tooltip="Button Group trong WRD v0.4.0" wrd-tooltip-name="tin3">Button Group trong WRD v0.4.0</a></h2>
+					<p>
+						<img src="./index_files/3.png" /><br>
+						Ra mắt ngày 1/11/2015, button group là một tính năng cực độc cho những ai đang sử dụng WRD. Nó có nhiều tình năng và hỗ trợ responsive cực tốt...
+					</p>
+				</div>
+			</div>
+			<div style="width:40%;margin:0 5% 0 55%;" id="p2">
+				<h3>Chuyên mục</h3>
+				<div class="accordion">
+					<div class="accordion-item">
+						<div class="bold accordion-title large" href="#web">
+							Lập trình web <span class="label">3</span>
+						</div>
+						<div class="accordion-content" id="web">
+							<p><a href="#">Hưỡng dẫn tạo pagination page bằng WRD</a></p>
+							<p><a href="#">Cách tạo web Responsive chuẩn SEO</a></p>
+							<p><a href="#">Button Group trong WRD v0.4.0</a></p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-title large bold" href="#thuthuat">
+							Thủ thuật máy tính <span class="label">0</span>
+						</div>
+						<div class="accordion-content" id="thuthuat">
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-title large bold" href="#play">
+							Giải trí <span class="label">0</span>
+						</div>
+						<div class="accordion-content" id="play">
+						</div>
+					</div>        
+				</div>
+				<h3>Tag lập trình</h3>
+				<div class="tag tag-hover">
+					<div class="tag-sub">HTML</div>
+					<div class="tag-sub">XHTML</div>
+					<div class="tag-sub">XML</div>
+					<div class="tag-sub">CSS</div>
+					<div class="tag-sub">JAVASCRIPT</div>
+					<div class="tag-sub">PHP</div>
+					<div class="tag-sub">ASP</div>
+					<div class="tag-sub">SQL</div>
+					<div class="tag-sub">C</div>
+					<div class="tag-sub">C++</div>
+					<div class="tag-sub">C#</div>
+					<div class="tag-sub">VISUAL BASIC</div>
+					<div class="tag-sub">GO</div>
+					<div class="tag-sub">RUBY</div>
+					<div class="tag-sub">PERL</div>
+				</div>				
+				<h3>Thư viện ảnh</h3>
+				<div class="gallery opacity">
+					<img src="http://wrd.vndile.com/slide1.jpg" alt="" />
+					<img src="http://wrd.vndile.com/slide2.jpg" alt="" />
+					<img src="http://wrd.vndile.com/slide3.jpg" alt="" />
+				<h3>Đăng ký nhận tin</h3>
+				<form class="form" method="get" action="javascript:void(0)">
+					<div class="form-group">
+						<input type="text" note="Điền tên bạn vào đây. VD: John Smith" />
+						<label>Tên</label>
+					</div>
+					<div class="form-group">
+						<input type="email" note="Điền email bạn vào đây. VD: john2000@gmail.com" />
+						<label>Email</label>
+					</div>
+					<br />
+					<div class="form-group medium">
+					<input type="checkbox" />Tôi đồng ý.
+					</div>
+					<input type="submit" class="height-40 btn white center medium" value="Gửi thông tin" />
+				</form>
+			</div>
+		</div>
+		<br><br><br><br><br>
+		<footer class="footer padd-20 padd-left-40 large black">
+			<copyright>Bản quyền thuộc về <a href="http://wrd.vndile.com" wrd-color="#fff">http://wrd.vndile.com</a>. Mẫu web "Blog của tôi".</copyright>
+		</footer>
+	</body>
+</html>

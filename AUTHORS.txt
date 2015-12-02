@@ -1,0 +1,5 @@
+The author later in WRD:
+
+Necolas (normalize.css)
+aFarkas (HTML5 Shiv)
+W3schools (clock using canvas)
